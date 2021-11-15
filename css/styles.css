@@ -33,6 +33,10 @@ ul {
 
 /* ШАПКА --------------------------- */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .container {
   width: 1230px;
   padding-right: 15px;
@@ -44,7 +48,6 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .header-navigation {
@@ -125,6 +128,15 @@ ul {
 
 /* СЕКЦИЯ 1 HERO (ГЛАВНЫЙ ЭКРАН) --------------------*/
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-hero {
+  padding-bottom: 0;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -157,6 +169,7 @@ ul {
 
 .hero-btn {
   border-radius: 4px;
+  border-width: 0;
   padding: 10px 32px;
   display: inline-block;
   font-family: inherit;
@@ -178,11 +191,6 @@ ul {
 }
 
 /* СЕКЦИЯ 2 ПРЕИМУЩЕСТВА (скрыть заголовок) */
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .section-title {
   font-weight: 700;

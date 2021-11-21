@@ -37,16 +37,16 @@
 <main>
 <!-- Секция 1 Главный экран -->
 <section class="hero">
-    <div class="container container-hero">
+    <div class="container">
     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
     <button class="hero-btn" type="button">Заказать услугу</button>
 </div>
 </section>
 
 <!-- Секция 2 Преимущества (скрыть заголовок) -->
-<section class="section section-hero">
+<section class="section advantage-section">
     <div class="container">
-    <h2 hidden class="section-title">Преимущества</h2>
+    <!-- <h2 class="section-title">Преимущества</h2> -->
     <ul class="list advantage-list">
         <li class="advantage-item">
             <h3 class="advantage-title">Внимание к деталям</h3>
@@ -73,9 +73,9 @@
     <div class="container">
     <h2 class="section-title">Чем мы занимаемся</h2>
     <ul class="list doing-list">
-        <li class="doing-item"><img src="./images/what-are-we-doing-img1.jpg" alt="Разработка для десктопных устройств" width="370" height="294"></li>
-        <li class="doing-item"><img src="./images/what-are-we-doing-img2.jpg" alt="Разработка для мобильных устройств" width="370" height="294"></li>
-        <li class="doing-item"><img src="./images/what-are-we-doing-img3.jpg" alt="Разработка для лептопных устройств" width="370" height="294"></li>
+        <li class="doing-item"><img class="doing-img" src="./images/what-are-we-doing-img1.jpg" alt="Разработка для десктопных устройств" width="370" height="294"></li>
+        <li class="doing-item"><img class="doing-img" src="./images/what-are-we-doing-img2.jpg" alt="Разработка для мобильных устройств" width="370" height="294"></li>
+        <li class="doing-item"><img class="doing-img" src="./images/what-are-we-doing-img3.jpg" alt="Разработка для лептопных устройств" width="370" height="294"></li>
     </ul>
     </div>
 </section>
@@ -87,24 +87,32 @@
     <ul class="list team-list">
         <li class="team-item">
             <img class="team-img" src="./images/our-team-img1.jpg" alt="Фото Игорь Демьяненко" width="270" height="260">
+            <div class="team-title-text">
             <h3 class="team-title">Игорь Демьяненко</h3>
             <p class="team-text" lang="en">Product Designer</p>
+            </div>
         </li>
         <li class="team-item">
             <img class="team-img" src="./images/our-team-img2.jpg" alt="Фото Ольга Репина" width="270" height="260">
+            <div class="team-title-text">
             <h3 class="team-title">Ольга Репина</h3>
             <p class="team-text" lang="en">Frontend Developer</p>
+            </div>
         </li>
         <li class="team-item">
             <img class="team-img" src="./images/our-team-img3.jpg" alt="Фото Николай Тарасов" width="270" height="260">
+            <div class="team-title-text">
             <h3 class="team-title">Николай Тарасов</h3>
             <p class="team-text" lang="en">Marketing</p>
-        </li>
+        
+        </div></li>
         <li class="team-item">
             <img class="team-img" src="./images/our-team-img4.jpg" alt="Фото Михаил Ермаков" width="270" height="260">
+            <div class="team-title-text">
             <h3 class="team-title">Михаил Ермаков</h3>
             <p class="team-text" lang="en">UI Designer</p>
-        </li>
+      
+      </div>  </li>
     </ul>
     </div>
 </section>
@@ -116,13 +124,13 @@
     <a class="link footer-logo" href="index.html">Web<span class="footer-logo-two">Studio</span></a>
     <address class="address">
         <ul class="list footer-list">
-            <li>
+            <li class="footer-item">
                 <a class="link footer-link footer-address" href="https://goo.gl/maps/5prfQH1JwphvAtdC9">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
+            <li class="footer-item">
                 <a class="link footer-link" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
+            <li class="footer-item">
                 <a class="link footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>

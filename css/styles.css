@@ -35,6 +35,7 @@ ul {
 
 .header {
   border-bottom: 1px solid #ececec;
+  background-color: var(--color-main);
 }
 
 .container {
@@ -56,6 +57,7 @@ ul {
 }
 
 .header-logo {
+  margin-right: 93px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -66,7 +68,6 @@ ul {
 
 .header-logo-two {
   color: var(--color-headline);
-  margin-right: 93px;
 }
 
 .nav-list {
@@ -80,10 +81,6 @@ ul {
 .nav-link.current,
 .contacts-link.current {
   color: var(--color-accent);
-}
-
-.header {
-  background-color: var(--color-main);
 }
 
 .nav-link {
@@ -133,18 +130,6 @@ ul {
   padding-bottom: 94px;
 }
 
-.section-hero {
-  padding-bottom: 0;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .hero {
   text-align: center;
   background: var(--color-hero-footer);
@@ -191,6 +176,10 @@ ul {
 }
 
 /* СЕКЦИЯ 2 ПРЕИМУЩЕСТВА (скрыть заголовок) */
+
+.advantage-section {
+  padding-bottom: 0;
+}
 
 .section-title {
   font-weight: 700;
@@ -242,6 +231,12 @@ ul {
   margin-right: 30px;
 }
 
+.doing-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* СЕКЦИЯ 4 НАША КОМАНДА ----------- */
 
 .team {
@@ -267,9 +262,13 @@ ul {
   display: block;
 }
 
-.team-title {
+.team-title-text {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.team-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -279,8 +278,6 @@ ul {
 }
 
 .team-text {
-  padding-top: 0;
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -313,6 +310,10 @@ ul {
   margin-top: 20px;
 }
 
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-link {
   font-style: normal;
   font-size: 14px;
@@ -337,7 +338,6 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: 0;
 }
 
 .portfolio-item:not(:last-child) {
@@ -367,7 +367,6 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
 }
 
 .portfolio-list-item {
@@ -375,9 +374,6 @@ ul {
   margin-bottom: 30px;
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .portfolio-list-item:nth-child(3n) {
@@ -394,11 +390,17 @@ ul {
   height: auto;
 }
 
-.portfolio-title {
+.portfolio-title-item {
   padding-top: 20px;
-  padding-bottom: 0;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -408,10 +410,6 @@ ul {
 }
 
 .portfolio-text {
-  padding-top: 0;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
